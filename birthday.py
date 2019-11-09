@@ -1,3 +1,6 @@
+# this code written by Dilshan Ramesh
+# github.com/dilshan97
+
 year = input("Enter Birth Year : ")
 month = input("Enter Birth Month : ")
 date = input("Enter Birth date : ")
@@ -10,6 +13,8 @@ def sum_digit(n):
     return sum
 
 
-luky_number = sum_digit(year) + sum_digit(month) + sum_digit(date)
+total = sum_digit(year) + sum_digit(month) + sum_digit(date)
+
+luky_number = sum_digit(total)
 
 print("Your Lucky Number is : " + str(luky_number))
